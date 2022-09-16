@@ -2,11 +2,11 @@ const dob5 = document.getElementById("dob");
 dob5.addEventListener("change", () => validateDOB(dob5));
 function validateDOB(dob5){
 let d5=dob5.value.split("-");
-let year=d5[0];
-let month=d5[1];
-let date=d5[2];
-let birthdate = new Date(year, month, date);
-let today = new Date();
+let yr=d5[0];
+let mnth=d5[1];
+let dt=d5[2];
+let birthdate = new Date(yr, mnth, dt);
+let tdy = new Date();
 let curr_year5= today.getFullYear();
 let birth_Year=birthdate.getFullYear()
 let age = curr_year5 - birth_Year;
@@ -36,7 +36,7 @@ if(element.validity.typeMismatch){
     element.setCustomValidity('');
     }
 }           
-let userform=document.getElementById('Form_data');
+let userfrm=document.getElementById('Form_data');
 const retriveEntries=()=>{
     let entries=localStorage.getItem("entries");
     if(entries){
