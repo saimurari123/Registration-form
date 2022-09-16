@@ -18,7 +18,7 @@
     margin-top: 10%;
     background-repeat: no-repeat;
     background-attachment: fixed; 
-    background-color: black;
+    background-color: grey;
     background-size: cover;
     background-image: url("https://cdn.glitch.global/2f86c8ac-df9f-4b51-aac3-45c2ee0739b1/background.jpg?v=1663268402141");
   }
@@ -32,13 +32,13 @@
  
   .form {
     display: flex;
-    background-color: white;
+    background-color: cyan;
     align-items: center;
     height: 500px;
     flex-direction: column;
     width: 750px;
     border-radius: 25px;
-    box-shadow: 2px 4px 10px gray;
+    box-shadow: 2px 4px 10px green;
     margin-right: 130px;
   }
  
